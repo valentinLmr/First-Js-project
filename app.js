@@ -22,7 +22,9 @@ const budgetController = (function() {
           exp: 0,
           inc: 0
         }
+        "not"
   };
+
 
   return {
     addItem: function(type, desc, val){
