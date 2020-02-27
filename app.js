@@ -1,4 +1,5 @@
 const budgetController = (function() {
+
   const Expense = function(id, description, value) {
     this.id = id;
     this.description = description;
@@ -113,6 +114,7 @@ const budgetController = (function() {
 
     deleteItem: function(type, ID) {
       let ids, index;
+
         ids = data.allItems[type].map(function(current) {
           return current.id;
         })
